@@ -1,0 +1,53 @@
+header { display: flex; flex-flow: row nowrap; justify-content: space-between; position: relative; width: 960px; height: 66px; margin: 0 auto; }
+header > .logo { display: flex; align-items: center; }
+header > .logo > a { display: block; width: 60px; height: 21px; text-indent: -9999px; background-image: url(../images/line_logo.png); background-size: cover; background-repeat: no-repeat; }
+header > nav > .nav { display: flex; align-items: center; position: absolute; left: 78px; height: 66px; }
+header > nav > .nav > li { height: 12px; padding: 0 13px 0 13px; border-right: 1px solid #CFCFCF; }
+header > nav > .nav > li:first-child { padding-left: 0; }
+header > nav > .nav > li:last-child { border-right: none; }
+header > form { display: flex; align-items: center; }
+header > form > fieldset > select { width: 150px; height: 24px; padding-left: 10px; color: #444444; font-size: 12px; border: 1px solid #DFDFDF; background-image: url(../images/select.png); background-position: 135px center; background-repeat: no-repeat; appearance: none; -webkit-appearance: none; -moz-appearance: none; -o-appearance: none; outline: none; cursor: pointer; }
+header > form > fieldset > select:hover { background-color: #F2F2F2; }
+
+section { height: 2400px; border-top: 3px solid #000; }
+section > ul:before { content: ''; display: block; position: absolute; width: 190px; height: 190px; }
+section > ul:nth-child(1):before { background-image: url(../images/bt21_190.png); }
+section > ul:nth-child(2):before { background-image: url(../images/linechef_icon.png); }
+section > ul:nth-child(3):before { background-image: url(../images/LINE\ Brown\ stories.png); }
+section > ul:nth-child(4):before { background-image: url(../images/line_game.jpg); }
+section > ul:nth-child(5):before { background-image: url(../images/tm_icon.jpg); }
+section > ul:nth-child(6):before { background-image: url(../images/bubble2_.png); }
+section > ul:nth-child(7):before { background-image: url(../images/linebubble_round.png); }
+section > ul { width: 960px; height: 220px; margin: 50px auto; position: relative; border-bottom: 1px solid #d4d4d4; }
+section > ul > li { padding-left: 220px; }
+section > ul > li > h1 { font-weight: 800; font-size: 40px; }
+section > ul > li > h2 { margin-top: 20px; font-weight: 400; font-size: 14px; }
+section > ul > li > .android { position: relative; width: 110px; height: 24px; margin-right: 10px; color: white; line-height: 25px; text-indent: 10px; background-color: #707070; border: 1px solid #535353; }
+section > ul > li > .android:after { content: ''; display: block; position: absolute; top: 0; right: 0; width: 25px; height: 25px; background-image: url(../images/ico_right.png); background-repeat: no-repeat; }
+section > ul > li > .ios { position: relative; width: 90px; height: 24px; margin-right: 10px; color: white; line-height: 25px; text-indent: 10px; background-color: #707070; border: 1px solid #535353; }
+section > ul > li > .ios:after { content: ''; display: block; position: absolute; top: 0; right: 0; width: 25px; height: 25px; background-image: url(../images/ico_right.png); background-repeat: no-repeat; }
+section > ul > li > .win { position: relative; width: 150px; height: 24px; color: white; line-height: 25px; text-indent: 10px; background-color: #707070; border: 1px solid #535353; }
+section > ul > li > .win:after { content: ''; display: block; position: absolute; top: 0; right: 0; width: 25px; height: 25px; background-image: url(../images/ico_right.png); background-repeat: no-repeat; }
+section > ul li:last-child { display: flex; margin: 15px 0; }
+section > ul li:last-child a { display: block; color: white; }
+section ul:nth-child(3) > li:nth-child(2) > .link { display: block; width: 20px; height: 20px; margin: -50px 0 0 250px; text-indent: -999px; background-image: url(../images/spritePC200706.png); background-position: -995px 0; }
+section ul:nth-child(3) > li:nth-child(3) { padding-top: 30px; }
+section .store { position: relative; width: 960px; height: 220px; margin: 100px auto; position: relative; border-top: 1px solid #d4d4d4; }
+section .store > h3 { margin-top: 40px; font-weight: 400; font-size: 30px; }
+section .store > p { margin-top: 20px; font-size: 15px; }
+section .store a { display: block; margin-top: 30px; color: blue; font-size: 14px; text-decoration: underline; }
+section .store > img { position: absolute; top: 60px; right: 60px; }
+
+footer { position: relative; height: 200px; padding-top: 10px; background-color: #3B3B3B; }
+footer > .footernav > ul { display: flex; width: 960px; margin: 30px auto; }
+footer > .footernav > ul > li { height: 10px; line-height: 10px; border-right: 1px solid #525151; }
+footer > .footernav > ul > li a { font-size: 13px; display: block; margin: 0 10px; color: #929090; }
+footer > .footernav > ul li:last-child { border-right: none; }
+footer > .sns > ul { width: 960px; margin: 0 auto; position: relative; }
+footer > .sns > ul > .sprite1 { position: absolute; left: 10px; width: 40px; height: 30px; background-position: -1051px -10px; background-size: cover; }
+footer > .sns > ul > .sprite1 > a { display: block; height: 30px; text-indent: -9999px; background-repeat: no-repeat; background-image: url(../images/youtube.jpg); }
+footer > .sns > ul > .sprite2 { position: absolute; left: 55px; top: -5px; width: 32px; height: 30px; background-position: -817px 0; background-size: cover; }
+footer > .sns > ul > .sprite2 > a { display: block; height: 30px; text-indent: -9999px; background-repeat: no-repeat; background-image: url(../images/facebook.JPG); }
+footer > address { width: 960px; margin: 70px auto; padding-left: 15px; color: #929090; font-weight: 800; }
+
+/*# sourceMappingURL=game.css.map */

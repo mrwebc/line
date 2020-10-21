@@ -1,0 +1,261 @@
+@charset "UTF-8";
+
+header{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-between;
+    position:relative;
+    width:960px;
+    height:66px;
+    margin:0 auto;
+    >.logo{
+        display:flex;
+        align-items:center;
+        >a{
+            display:block;
+            width:60px;
+            height:21px;
+            text-indent:-9999px;
+            background-image: url(../images/line_logo.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }//.logo>a
+    }//.logo
+    >nav{
+        
+        >.nav{
+            display:flex;
+            align-items: center;
+            position:absolute;
+            left:78px;
+            height:66px;
+            >li{
+                height:12px;
+                padding:0 13px 0 13px;
+                border-right: 1px solid #CFCFCF;
+            
+            }//li
+            >li:first-child{
+                padding-left:0;
+            }//li:first-child
+            >li:last-child{
+                border-right: none;
+            }//li:last-child
+        }//.nav
+    }//nav
+    // >.lang{
+    //     >.dropdown>a:active+ul{
+    //         display:block;
+    //         width:100px;
+
+    //     }
+        
+    // }
+    >form{
+        display:flex;
+        align-items: center;
+        >fieldset{
+            >select{
+            width:150px;
+            height:24px;
+            padding-left:10px;
+            color: #444444;
+            font-size: 12px;
+            border: 1px solid #DFDFDF;
+            background-image: url(../images/select.png);
+            background-position: 135px center;
+            background-repeat:no-repeat;
+            appearance:none;
+            -webkit-appearance:none;
+            -moz-appearance:none;
+            -o-appearance:none;
+            outline:none;
+            cursor: pointer;
+            
+            } //select
+            >select:hover{
+                background-color: #F2F2F2;
+            }//select:hover
+            
+        }//fieldset
+    }//form
+}//header
+//seciton
+
+section{
+    height:2300px;
+    border-top: 3px solid #000;
+    >.main_banner{
+        height:440px;
+        text-indent:-9999px;
+        background-image: url(../images/PC_LINE_Store_ko_1231231.png);
+        background-position: center 0;
+    }
+    >article{
+        width:960px;
+        margin:0 auto;
+        margin-top:100px;
+        >.sticker1{
+            display:flex;
+            
+            
+            >div{
+                margin-top:70px;
+                h1{
+                font-weight: 400;
+                font-size: 55px;
+                }
+                >p{
+                    margin-top:20px;
+                    font-size: 15px;
+                }
+                >a,a:link,a:visited,a:active{
+                display:block; 
+                margin-top:30px;
+                color: blue;
+                font-size: 16px;
+                text-decoration: underline;
+                }
+            }
+            
+            
+        }
+            >.sticker2{
+                display:flex;
+                justify-content: space-between;
+                
+                >div{
+                    margin-top:70px;
+                    h1{
+                    font-weight: 400;
+                    font-size: 55px;
+                    }
+                    >p{
+                        margin-top:20px;
+                        font-size: 15px;
+                    }
+                    >a,a:link,a:visited,a:active{
+                    display:block; 
+                    margin-top:30px;
+                    color: blue;
+                    font-size: 16px;
+                    text-decoration: underline;
+                    }
+                }
+                
+                
+            }
+            >.sticker3{
+                display:flex;
+                justify-content: space-between;
+                margin-top:50px;
+                
+                
+                >div{
+                    margin-top:70px;
+                    h1{
+                    font-weight: 400;
+                    font-size: 55px;
+                    }
+                    >p{
+                        margin-top:20px;
+                        font-size: 15px;
+                    }
+                    >a,a:link,a:visited,a:active{
+                    display:block; 
+                    margin-top:30px;
+                    color: blue;
+                    font-size: 16px;
+                    text-decoration: underline;
+                    }
+                }
+                
+                
+            }
+
+      
+    }
+}
+
+
+
+
+// footer
+footer{
+    position:relative;
+    height:200px;
+    padding-top:10px;
+    background-color: #3B3B3B;
+        >.footernav{
+            >ul{
+                display:flex;
+                width:960px;
+                margin:30px auto;
+                >li{
+                    height:10px;
+                    line-height: 10px;
+                    border-right: 1px solid rgb(82, 81, 81);
+                    a{  
+                        font-size: 13px;
+                        display:block;
+                        margin:0 10px;
+                        color: rgb(146, 144, 144);
+                        
+
+                    }
+                }
+                li:last-child{
+                    border-right: none;
+                }
+            }
+        }
+        >.sns{
+            >ul{
+                width:960px;
+                margin:0 auto;
+                position:relative;
+                >.sprite1{
+                    position:absolute;
+                    left:10px;
+                    width:40px;
+                    height:30px;
+                    background-position: -1051px -10px;
+                    background-size: cover;
+                    
+                    >a{
+                        display:block;
+                        height:30px;
+                        text-indent:-9999px;
+                        background-repeat: no-repeat;
+                        background-image: url(../images/youtube.jpg);  
+                    }
+                }
+                >.sprite2{
+                    position:absolute;
+                    left:55px;
+                    top:-5px;
+                    width:32px;
+                    height:30px;
+                    background-position:-817px 0;
+                    background-size:cover;
+                    >a{
+                        display:block;
+                        height:30px;
+                        text-indent:-9999px;
+                        background-repeat: no-repeat;
+                        background-image: url(../images/facebook.JPG);
+                    }
+                }
+            
+        
+            }
+        }
+        >address{
+            width:960px;
+            margin:70px auto;
+            padding-left:15px;
+            color: rgb(146, 144, 144);
+            font-weight: 800;
+            
+        }
+    }
